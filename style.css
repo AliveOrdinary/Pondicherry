@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    background-color: #93e6ff;
-
-
+    background: linear-gradient(#d5f4fe,#93e6ff);
 }
 
 .hero-section {
@@ -40,7 +38,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#d5f4fe,#93e6ff);
 }
 
 .todo-title {
@@ -102,7 +99,11 @@ body {
 }
 
 .carousel {
-    margin: 100px 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .carousel-inner {
@@ -110,4 +111,7 @@ body {
     height: 800px;
     object-fit: cover;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
 }
